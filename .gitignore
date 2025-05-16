@@ -62,4 +62,9 @@ Thumbs.db
 .idea/
 .vscode/
 *.swp
-*.swo 
+*.swo
+
+# Exclude large files and processing directory
+processing/
+reports/*.pdf
+# Files larger than 100MB are not allowed on GitHub 
