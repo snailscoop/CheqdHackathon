@@ -1,0 +1,151 @@
+{
+  "did": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+  "resource": null,
+  "searchResults": {
+    "byResourceId": {
+      "dereferencingMetadata": {
+        "contentType": "text/plain",
+        "retrieved": "2025-05-13T23:16:36.036Z",
+        "did": {
+          "didString": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+          "methodSpecificId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+          "method": "cheqd"
+        }
+      },
+      "contentStream": null,
+      "contentMetadata": {
+        "resourceURI": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6/resources/b605798c-e496-4d2e-a63e-13ccfd54d678",
+        "resourceCollectionId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+        "resourceId": "f7cd63ec-d5f1-474e-81c6-ddcc1909105c",
+        "resourceName": "TestTextDocument",
+        "resourceType": "TextDocument",
+        "mediaType": "text/plain",
+        "resourceVersion": "1.0",
+        "checksum": "2a685d9529b61ccce43625b34165a88ff05051788fd885b77567079bc09324dc",
+        "created": "2025-05-13T23:16:22.862Z",
+        "nextVersionId": null,
+        "previousVersionId": null
+      }
+    },
+    "byNameAndType": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://schema.org"
+      ],
+      "type": "CredentialSchema",
+      "name": "Test Credential Schema",
+      "author": "Test Author",
+      "authored": "2025-05-13T23:16:23.022Z",
+      "schema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "age": {
+            "type": "integer"
+          }
+        },
+        "required": [
+          "name"
+        ]
+      }
+    },
+    "metadataOnly": {
+      "contentMetadata": {
+        "resourceURI": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6/resources/b605798c-e496-4d2e-a63e-13ccfd54d678",
+        "resourceCollectionId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+        "resourceId": "f7cd63ec-d5f1-474e-81c6-ddcc1909105c",
+        "resourceName": "TestTextDocument",
+        "resourceType": "TextDocument",
+        "mediaType": "text/plain",
+        "resourceVersion": "1.0",
+        "checksum": "2a685d9529b61ccce43625b34165a88ff05051788fd885b77567079bc09324dc",
+        "created": "2025-05-13T23:16:22.862Z",
+        "nextVersionId": null,
+        "previousVersionId": null
+      }
+    },
+    "withChecksum": {
+      "dereferencingMetadata": {
+        "contentType": "text/plain",
+        "retrieved": "2025-05-13T23:16:38.004Z",
+        "did": {
+          "didString": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+          "methodSpecificId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+          "method": "cheqd"
+        }
+      },
+      "contentStream": null,
+      "contentMetadata": {
+        "resourceURI": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6/resources/b605798c-e496-4d2e-a63e-13ccfd54d678",
+        "resourceCollectionId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+        "resourceId": "f7cd63ec-d5f1-474e-81c6-ddcc1909105c",
+        "resourceName": "TestTextDocument",
+        "resourceType": "TextDocument",
+        "mediaType": "text/plain",
+        "resourceVersion": "1.0",
+        "checksum": "2a685d9529b61ccce43625b34165a88ff05051788fd885b77567079bc09324dc",
+        "created": "2025-05-13T23:16:22.862Z",
+        "nextVersionId": null,
+        "previousVersionId": null
+      }
+    }
+  },
+  "dbRecords": {
+    "textResource": {
+      "resourceId": "f7cd63ec-d5f1-474e-81c6-ddcc1909105c",
+      "resourceName": "TestTextDocument",
+      "resourceType": "TextDocument"
+    },
+    "jsonResource": {
+      "resourceId": "f8f4f8fc-5516-4dea-9aeb-684c8ed11eb1",
+      "resourceName": "TestJSONSchema",
+      "resourceType": "JSONDocument"
+    }
+  },
+  "didDocument": {
+    "id": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+    "controller": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6#9806efa4a85ec74dd281c19df9a0ea56857121da6e7e8dc5080058868eff867f",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6",
+        "publicKeyHex": "9806efa4a85ec74dd281c19df9a0ea56857121da6e7e8dc5080058868eff867f"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6#9806efa4a85ec74dd281c19df9a0ea56857121da6e7e8dc5080058868eff867f"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6#9806efa4a85ec74dd281c19df9a0ea56857121da6e7e8dc5080058868eff867f"
+    ]
+  },
+  "textResource": {
+    "resourceURI": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6/resources/b605798c-e496-4d2e-a63e-13ccfd54d678",
+    "resourceCollectionId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+    "resourceId": "f7cd63ec-d5f1-474e-81c6-ddcc1909105c",
+    "resourceName": "TestTextDocument",
+    "resourceType": "TextDocument",
+    "mediaType": "text/plain",
+    "resourceVersion": "1.0",
+    "checksum": "2a685d9529b61ccce43625b34165a88ff05051788fd885b77567079bc09324dc",
+    "created": "2025-05-13T23:16:22.862Z",
+    "nextVersionId": null,
+    "previousVersionId": null
+  },
+  "jsonResource": {
+    "resourceURI": "did:cheqd:testnet:8e58e792-8035-4d47-a957-1ad701edccb6/resources/a848befa-224e-4cc7-a9b2-1e0b6f0758ac",
+    "resourceCollectionId": "8e58e792-8035-4d47-a957-1ad701edccb6",
+    "resourceId": "f8f4f8fc-5516-4dea-9aeb-684c8ed11eb1",
+    "resourceName": "TestJSONSchema",
+    "resourceType": "JSONDocument",
+    "mediaType": "application/json",
+    "resourceVersion": "1.0",
+    "checksum": "4145e5bebe1f1863660f8255a8d59225524dec98c686638d254595131238c2c7",
+    "created": "2025-05-13T23:16:34.816Z",
+    "nextVersionId": null,
+    "previousVersionId": null
+  }
+}

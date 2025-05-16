@@ -1,0 +1,10 @@
+{
+  "issuerDID": "did:cheqd:testnet:e41b4a14-c3c5-47a3-8d83-e9335e5e9996",
+  "subjectDID": "did:cheqd:testnet:4bb31706-b5b6-4064-af76-6b3a6cc4feee",
+  "accreditation": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": "Invalid accreditation type: certify"
+}

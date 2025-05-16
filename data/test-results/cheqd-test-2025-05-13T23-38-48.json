@@ -1,0 +1,100 @@
+{
+  "issuerDid": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063",
+  "holderDid": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a",
+  "credential": {
+    "credentialSubject": {
+      "name": "John Doe",
+      "degree": "Bachelor of Science",
+      "university": "Example University",
+      "graduationDate": "2023-06-15",
+      "id": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063"
+    },
+    "type": [
+      "VerifiableCredential",
+      "VerifiableDiploma"
+    ],
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org"
+    ],
+    "issuanceDate": "2025-05-13T23:38:47.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjNlNDdmNzEwLWNmYjEtNDFlOS1iZDc2LTBhNDJlMmI5NmY0YSIsIm5iZiI6MTc0NzE3OTUyNywiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6ZGFiYTFkMzUtNTk5MC00MDlmLTgzOTItYzU0MDAxZTZiMDYzIn0.1JVVTxvNreGvfsDU0TxMNTRty6b3xaghtT8V0A6h5OiaKhoz0Xs0HW3-smFMjsr88cT-c5enblAFmN0bSj2mAw"
+    }
+  },
+  "credentialId": "urn:credential:ca1ed03b-7946-4016-8e9b-343c6d12b9b4",
+  "verificationResults": {
+    "initial": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org"
+        ],
+        "issuanceDate": "2025-05-13T23:38:47.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjNlNDdmNzEwLWNmYjEtNDFlOS1iZDc2LTBhNDJlMmI5NmY0YSIsIm5iZiI6MTc0NzE3OTUyNywiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6ZGFiYTFkMzUtNTk5MC00MDlmLTgzOTItYzU0MDAxZTZiMDYzIn0.1JVVTxvNreGvfsDU0TxMNTRty6b3xaghtT8V0A6h5OiaKhoz0Xs0HW3-smFMjsr88cT-c5enblAFmN0bSj2mAw"
+        }
+      }
+    }
+  },
+  "statusOperations": {},
+  "dbRecords": {},
+  "issuerDidDocument": {
+    "id": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063",
+    "controller": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063#1a611111e3353c08eceebd5380ab696616aad550ec16e50255f15f9b9ceda7a3",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063",
+        "publicKeyHex": "1a611111e3353c08eceebd5380ab696616aad550ec16e50255f15f9b9ceda7a3"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063#1a611111e3353c08eceebd5380ab696616aad550ec16e50255f15f9b9ceda7a3"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:daba1d35-5990-409f-8392-c54001e6b063#1a611111e3353c08eceebd5380ab696616aad550ec16e50255f15f9b9ceda7a3"
+    ]
+  },
+  "holderDidDocument": {
+    "id": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a",
+    "controller": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a#c4534f495c91ab0f0bd21760834828adab2ef7c74ad3330a94ae2e8fa9417bec",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a",
+        "publicKeyHex": "c4534f495c91ab0f0bd21760834828adab2ef7c74ad3330a94ae2e8fa9417bec"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a#c4534f495c91ab0f0bd21760834828adab2ef7c74ad3330a94ae2e8fa9417bec"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:3e47f710-cfb1-41e9-bd76-0a42e2b96f4a#c4534f495c91ab0f0bd21760834828adab2ef7c74ad3330a94ae2e8fa9417bec"
+    ]
+  },
+  "error": "SQLITE_ERROR: no such column: suspended_at"
+}

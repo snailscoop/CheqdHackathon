@@ -1,0 +1,7 @@
+{
+  "did": null,
+  "updatedDocument": null,
+  "deactivationResult": null,
+  "searchResults": {},
+  "error": "SQLITE_CONSTRAINT: FOREIGN KEY constraint failed"
+}

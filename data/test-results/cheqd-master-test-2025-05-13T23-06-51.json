@@ -1,0 +1,242 @@
+{
+  "did": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+  "updatedDocument": {
+    "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+    ],
+    "service": [
+      {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#service-1",
+        "type": "LinkedDomains",
+        "serviceEndpoint": [
+          "https://example.com/master-test"
+        ]
+      }
+    ]
+  },
+  "deactivationResult": {
+    "@context": "https://w3id.org/did-resolution/v1",
+    "didResolutionMetadata": {
+      "contentType": "application/did+ld+json",
+      "retrieved": "2025-05-13T23:06:51.212Z",
+      "did": {
+        "didString": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "method": "cheqd",
+        "methodSpecificId": "56227b5e-bb55-437a-a484-b5ecdf701c18"
+      }
+    },
+    "didDocument": {
+      "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+      "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+      "verificationMethod": [
+        {
+          "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+          "type": "Ed25519",
+          "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        }
+      ],
+      "authentication": [
+        "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+      ],
+      "assertionMethod": [
+        "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+      ],
+      "service": [
+        {
+          "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#service-1",
+          "type": "LinkedDomains",
+          "serviceEndpoint": [
+            "https://example.com/master-test"
+          ]
+        }
+      ],
+      "deactivated": true
+    },
+    "didDocumentMetadata": {
+      "created": "2025-05-13 23:06:32",
+      "deactivated": true,
+      "updated": "2025-05-13T23:06:51.212Z",
+      "versionId": "c74e2042-2808-425e-a9eb-2f52c3fc6e95"
+    }
+  },
+  "searchResults": {
+    "initial": {
+      "@context": "https://w3id.org/did-resolution/v1",
+      "didResolutionMetadata": {
+        "contentType": "application/did+ld+json",
+        "retrieved": "2025-05-13T23:06:32.524Z",
+        "did": {
+          "didString": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "methodSpecificId": "56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "method": "cheqd"
+        }
+      },
+      "didDocument": {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "verificationMethod": [
+          {
+            "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+            "type": "Ed25519",
+            "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+            "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+          }
+        ],
+        "authentication": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ],
+        "assertionMethod": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ]
+      },
+      "didDocumentMetadata": {
+        "created": "2025-05-13 23:06:32",
+        "deactivated": false,
+        "updated": "2025-05-13 23:06:32",
+        "versionId": "16e5aa1b-13c6-42dd-a78f-8baca60e446b"
+      }
+    },
+    "afterUpdate": {
+      "@context": "https://w3id.org/did-resolution/v1",
+      "didResolutionMetadata": {
+        "contentType": "application/did+ld+json",
+        "retrieved": "2025-05-13T23:06:40.902Z",
+        "did": {
+          "didString": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "methodSpecificId": "56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "method": "cheqd"
+        }
+      },
+      "didDocument": {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "verificationMethod": [
+          {
+            "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+            "type": "Ed25519",
+            "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+            "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+          }
+        ],
+        "authentication": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ],
+        "assertionMethod": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ],
+        "service": [
+          {
+            "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#service-1",
+            "type": "LinkedDomains",
+            "serviceEndpoint": [
+              "https://example.com/master-test"
+            ]
+          }
+        ]
+      },
+      "didDocumentMetadata": {
+        "created": "2025-05-13 23:06:32",
+        "deactivated": false,
+        "updated": "2025-05-13 23:06:32",
+        "versionId": "dc0b7bb8-ec71-42e8-9fb3-0b5ef7db38b9"
+      }
+    },
+    "afterDeactivation": {
+      "@context": "https://w3id.org/did-resolution/v1",
+      "didResolutionMetadata": {
+        "contentType": "application/did+ld+json",
+        "retrieved": "2025-05-13T23:06:51.213Z",
+        "did": {
+          "didString": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "methodSpecificId": "56227b5e-bb55-437a-a484-b5ecdf701c18",
+          "method": "cheqd"
+        }
+      },
+      "didDocument": {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "verificationMethod": [
+          {
+            "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+            "type": "Ed25519",
+            "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+            "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+          }
+        ],
+        "authentication": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ],
+        "assertionMethod": [
+          "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+        ],
+        "service": [
+          {
+            "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#service-1",
+            "type": "LinkedDomains",
+            "serviceEndpoint": [
+              "https://example.com/master-test"
+            ]
+          }
+        ],
+        "deactivated": true
+      },
+      "didDocumentMetadata": {
+        "created": "2025-05-13 23:06:32",
+        "deactivated": true,
+        "updated": "2025-05-13 23:06:32",
+        "versionId": "b32dd15e-7ab3-4bc1-836a-b79f260727d8"
+      }
+    }
+  },
+  "initialDocument": {
+    "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+        "publicKeyHex": "399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18#399dc826be16ef96e64ac750078be4b5147c9f51f2cb5e347d1f43c255ebcb9d"
+    ]
+  },
+  "listResult": [
+    "did:cheqd:testnet:17959495-6635-4553-97cd-8e6d0feedb5c",
+    "did:cheqd:testnet:243e5a38-1727-403d-9c3f-7b46e117f066",
+    "did:cheqd:testnet:29c32e68-9ff4-43bc-a129-b6df18fe84e2",
+    "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "did:cheqd:testnet:662d2a7e-20fd-4d03-b801-2afcc7570003",
+    "did:cheqd:testnet:7d7bb359-8b32-4b12-8e35-5456411b726a",
+    "did:cheqd:testnet:8f41fd5d-0d84-4b96-aa74-4bd2779d9c6a",
+    "did:cheqd:testnet:96989738-c021-4615-8f41-3c0bcd21d659",
+    "did:cheqd:testnet:a8f1c65f-8d67-4951-8c81-99b8fe26b765",
+    "did:cheqd:testnet:aae3dffb-3f84-47e6-b3ee-2b07be165068",
+    "did:cheqd:testnet:ab50868a-415b-47f1-8d40-a2ff33e845f3",
+    "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b"
+  ],
+  "dbRecord": {
+    "did": "did:cheqd:testnet:56227b5e-bb55-437a-a484-b5ecdf701c18",
+    "status": "deactivated"
+  }
+}

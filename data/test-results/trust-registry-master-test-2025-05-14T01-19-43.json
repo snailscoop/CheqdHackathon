@@ -1,0 +1,10 @@
+{
+  "issuerDID": "did:cheqd:testnet:daaea98f-d312-4bb1-a36a-1be6eaf505ef",
+  "subjectDID": "did:cheqd:testnet:02d6b121-ed3d-431f-96e1-876f6f14fb46",
+  "accreditation": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": "Issuer DID not found in trust registry: did:cheqd:testnet:daaea98f-d312-4bb1-a36a-1be6eaf505ef"
+}

@@ -1,0 +1,10 @@
+{
+  "issuerDID": "did:cheqd:testnet:25bfca39-752c-4b46-ae04-e8ac1689652c",
+  "subjectDID": "did:cheqd:testnet:5d0cdac0-c46c-415f-8a1a-35796cb83f67",
+  "accreditation": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": ""
+}

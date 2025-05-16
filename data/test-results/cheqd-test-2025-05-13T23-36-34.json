@@ -1,0 +1,100 @@
+{
+  "issuerDid": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f",
+  "holderDid": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e",
+  "credential": {
+    "credentialSubject": {
+      "name": "John Doe",
+      "degree": "Bachelor of Science",
+      "university": "Example University",
+      "graduationDate": "2023-06-15",
+      "id": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f"
+    },
+    "type": [
+      "VerifiableCredential",
+      "VerifiableDiploma"
+    ],
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org"
+    ],
+    "issuanceDate": "2025-05-13T23:36:34.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjJhNzU0NDU3LWEwZTItNDJmZi04ZjdlLWJjZGQ4M2NhMjE1ZSIsIm5iZiI6MTc0NzE3OTM5NCwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6NjY0OTJhNDEtMDZjYS00MTBhLTg1ZGQtMWM4ZmQ3YTc5NTdmIn0.tY9ISHMX4Qa7UwNlQZhIPi-tfQAYEEudBBOl_jsb-ysfeU15JSwANcOS4rdScCDce8qNq8qdfDxa_RW8Ug1CBg"
+    }
+  },
+  "credentialId": "urn:credential:ba8de1b4-adc3-497f-8a1e-ee6708c6e199",
+  "verificationResults": {
+    "initial": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org"
+        ],
+        "issuanceDate": "2025-05-13T23:36:34.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjJhNzU0NDU3LWEwZTItNDJmZi04ZjdlLWJjZGQ4M2NhMjE1ZSIsIm5iZiI6MTc0NzE3OTM5NCwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6NjY0OTJhNDEtMDZjYS00MTBhLTg1ZGQtMWM4ZmQ3YTc5NTdmIn0.tY9ISHMX4Qa7UwNlQZhIPi-tfQAYEEudBBOl_jsb-ysfeU15JSwANcOS4rdScCDce8qNq8qdfDxa_RW8Ug1CBg"
+        }
+      }
+    }
+  },
+  "statusOperations": {},
+  "dbRecords": {},
+  "issuerDidDocument": {
+    "id": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f",
+    "controller": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f#8531bd41cb85bb07864f6d373d5486e797d37b2a72e5f4fcf7a3e3da8ff5f68d",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f",
+        "publicKeyHex": "8531bd41cb85bb07864f6d373d5486e797d37b2a72e5f4fcf7a3e3da8ff5f68d"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f#8531bd41cb85bb07864f6d373d5486e797d37b2a72e5f4fcf7a3e3da8ff5f68d"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:66492a41-06ca-410a-85dd-1c8fd7a7957f#8531bd41cb85bb07864f6d373d5486e797d37b2a72e5f4fcf7a3e3da8ff5f68d"
+    ]
+  },
+  "holderDidDocument": {
+    "id": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e",
+    "controller": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e#31f4562e70c067116c4c6a82137bd29cd9f8f945adb3c575a18fc3d230fcdb06",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e",
+        "publicKeyHex": "31f4562e70c067116c4c6a82137bd29cd9f8f945adb3c575a18fc3d230fcdb06"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e#31f4562e70c067116c4c6a82137bd29cd9f8f945adb3c575a18fc3d230fcdb06"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:2a754457-a0e2-42ff-8f7e-bcdd83ca215e#31f4562e70c067116c4c6a82137bd29cd9f8f945adb3c575a18fc3d230fcdb06"
+    ]
+  },
+  "error": "cheqdService.suspendCredential is not a function"
+}

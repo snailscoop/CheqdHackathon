@@ -1,0 +1,12 @@
+{
+  "issuerDID": "did:cheqd:testnet:fd605644-a999-4248-bd02-3a74e6d788c2",
+  "subjectDID": "did:cheqd:testnet:91549faf-4813-4bcc-87e9-a477c45df54b",
+  "rootRegistry": null,
+  "issuerRegistry": null,
+  "accreditation": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": "trustRegistryService.createRootRegistry is not a function"
+}

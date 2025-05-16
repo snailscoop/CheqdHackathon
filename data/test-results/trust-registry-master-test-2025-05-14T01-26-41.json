@@ -1,0 +1,71 @@
+{
+  "issuerDID": "did:cheqd:testnet:b9426614-aed6-43ef-b9b0-549c50503526",
+  "subjectDID": "did:cheqd:testnet:61122970-96a6-4ce3-9420-4960ffe8a7f8",
+  "rootRegistry": {
+    "id": "root-1747185733118",
+    "did": "did:cheqd:testnet:317e3501-81df-4371-a6ab-843f45c633e2",
+    "name": "Test Root Registry 1747185733118"
+  },
+  "issuerRegistry": {
+    "id": "fc828610-25ab-4f16-84de-ca1dcef6c8b2",
+    "name": "Test Issuer Registry 1747186000110",
+    "type": "ISSUER",
+    "parentId": "root-1747185733118",
+    "did": "did:cheqd:testnet:b9426614-aed6-43ef-b9b0-549c50503526",
+    "data": {
+      "description": "Issuer registry for testing",
+      "createdBy": "test-script"
+    }
+  },
+  "accreditation": {
+    "credentialSubject": {
+      "accreditationType": "accredit",
+      "name": "Test Accreditation",
+      "trustFramework": "Cheqd Test Trust Framework",
+      "trustFrameworkId": "urn:cheqd:test-framework",
+      "schemas": [
+        "https://example.com/schemas/trustRegistry"
+      ],
+      "id": "did:cheqd:testnet:61122970-96a6-4ce3-9420-4960ffe8a7f8"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:b9426614-aed6-43ef-b9b0-549c50503526"
+    },
+    "type": [
+      "VerifiableCredential",
+      "accreditAccreditation"
+    ],
+    "credentialStatus": {
+      "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:b9426614-aed6-43ef-b9b0-549c50503526?resourceName=undefined&resourceType=StatusList2021Revocation#61371",
+      "type": "StatusList2021Entry",
+      "statusPurpose": "revocation",
+      "statusListIndex": "61371"
+    },
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org",
+      "https://w3id.org/vc/status-list/2021/v1",
+      "https://w3id.org/vc-status-list-2021/v1"
+    ],
+    "issuanceDate": "2025-05-14T01:26:41.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OmI5NDI2NjE0LWFlZDYtNDNlZi1iOWIwLTU0OWM1MDUwMzUyNj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jNjEzNzEiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiNjEzNzEifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjYxMTIyOTcwLTk2YTYtNGNlMy05NDIwLTQ5NjBmZmU4YTdmOCIsIm5iZiI6MTc0NzE4NjAwMSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6Yjk0MjY2MTQtYWVkNi00M2VmLWI5YjAtNTQ5YzUwNTAzNTI2In0.5VxMDETDJL1-cKL_TZSMKztPkQjCnmyFYMFmEmjT-9k8FdGz9tV-86UcOmvgmaIgJuF2mCLEEVWOIoA23RFcDQ"
+    }
+  },
+  "accreditationId": "did:cheqd:testnet:61122970-96a6-4ce3-9420-4960ffe8a7f8",
+  "verificationResults": [
+    {
+      "stage": "Step 4: Initial verification",
+      "result": {
+        "verified": false,
+        "reason": "Accreditation not found"
+      },
+      "timestamp": "2025-05-14T01:26:41.813Z"
+    }
+  ],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": "Accreditation not found"
+}

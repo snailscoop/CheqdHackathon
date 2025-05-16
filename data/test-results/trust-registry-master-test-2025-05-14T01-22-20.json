@@ -1,0 +1,34 @@
+{
+  "issuerDID": "did:cheqd:testnet:07f0a385-5f85-4029-92e9-88be09af7f56",
+  "subjectDID": "did:cheqd:testnet:26f17ca7-e0d0-4500-8605-9047722a8ae7",
+  "rootRegistry": {
+    "id": "root-1747185733118",
+    "name": "Test Root Registry 1747185733118",
+    "type": "ROOT",
+    "parentId": null,
+    "did": "did:cheqd:testnet:317e3501-81df-4371-a6ab-843f45c633e2",
+    "data": {
+      "description": "Root registry for testing",
+      "trustFramework": "https://example.com/test-framework",
+      "trustFrameworkId": "urn:test:framework",
+      "createdBy": "test-script"
+    }
+  },
+  "issuerRegistry": {
+    "id": "1afb6dc8-dfcd-443d-9016-8c92824f8c38",
+    "name": "Test Issuer Registry 1747185740625",
+    "type": "ISSUER",
+    "parentId": "root-1747185733118",
+    "did": "did:cheqd:testnet:07f0a385-5f85-4029-92e9-88be09af7f56",
+    "data": {
+      "description": "Issuer registry for testing",
+      "createdBy": "test-script"
+    }
+  },
+  "accreditation": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": "SQLITE_ERROR: no such table: registry_authorizations"
+}

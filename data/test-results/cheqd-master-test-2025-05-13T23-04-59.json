@@ -1,0 +1,92 @@
+{
+  "did": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+  "updatedDocument": {
+    "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+        "publicKeyHex": "c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+    ]
+  },
+  "deactivationResult": null,
+  "searchResults": {
+    "initial": {
+      "@context": "https://w3id.org/did-resolution/v1",
+      "didResolutionMetadata": {
+        "contentType": "application/did+ld+json",
+        "retrieved": "2025-05-13T23:04:51.239Z",
+        "did": {
+          "didString": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+          "methodSpecificId": "d2b03076-1a9d-4c22-a61b-02ac995d6369",
+          "method": "cheqd"
+        }
+      },
+      "didDocument": {
+        "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+        "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+        "verificationMethod": [
+          {
+            "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1",
+            "type": "Ed25519",
+            "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+            "publicKeyHex": "c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+          }
+        ],
+        "authentication": [
+          "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+        ],
+        "assertionMethod": [
+          "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+        ]
+      },
+      "didDocumentMetadata": {
+        "created": "2025-05-13 23:04:50",
+        "deactivated": false,
+        "updated": "2025-05-13 23:04:50",
+        "versionId": "b1730f95-baec-479b-a104-94937a6481b9"
+      }
+    }
+  },
+  "initialDocument": {
+    "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+        "publicKeyHex": "c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369#c7e18fd0066e2fda16c474c653dd0db9e3ed9484b512962e87749a6a187c03b1"
+    ]
+  },
+  "listResult": [
+    "did:cheqd:testnet:17959495-6635-4553-97cd-8e6d0feedb5c",
+    "did:cheqd:testnet:243e5a38-1727-403d-9c3f-7b46e117f066",
+    "did:cheqd:testnet:29c32e68-9ff4-43bc-a129-b6df18fe84e2",
+    "did:cheqd:testnet:662d2a7e-20fd-4d03-b801-2afcc7570003",
+    "did:cheqd:testnet:7d7bb359-8b32-4b12-8e35-5456411b726a",
+    "did:cheqd:testnet:96989738-c021-4615-8f41-3c0bcd21d659",
+    "did:cheqd:testnet:a8f1c65f-8d67-4951-8c81-99b8fe26b765",
+    "did:cheqd:testnet:aae3dffb-3f84-47e6-b3ee-2b07be165068",
+    "did:cheqd:testnet:ab50868a-415b-47f1-8d40-a2ff33e845f3",
+    "did:cheqd:testnet:d2b03076-1a9d-4c22-a61b-02ac995d6369",
+    "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b"
+  ],
+  "error": "Updated DID does not contain the service endpoint"
+}

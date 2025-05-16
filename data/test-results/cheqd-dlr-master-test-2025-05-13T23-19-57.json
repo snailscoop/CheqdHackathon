@@ -1,0 +1,124 @@
+{
+  "did": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478",
+  "resource": null,
+  "searchResults": {
+    "byResourceId": {
+      "dereferencingMetadata": {
+        "contentType": "text/plain; charset=utf-8",
+        "retrieved": "2025-05-13T23:19:55.347Z"
+      },
+      "contentStream": null,
+      "contentMetadata": "Sample text document for DID-Linked Resource testing\nCreated at: 2025-05-13T23:19:42.816Z\nThis is a test document for the Cheqd DID-Linked Resource API."
+    },
+    "byNameAndType": {
+      "dereferencingMetadata": {
+        "contentType": "application/json",
+        "retrieved": "2025-05-13T23:19:56.324Z"
+      },
+      "contentStream": null,
+      "contentMetadata": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org"
+        ],
+        "type": "CredentialSchema",
+        "name": "Test Credential Schema",
+        "author": "Test Author",
+        "authored": "2025-05-13T23:19:48.599Z",
+        "schema": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "age": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "name"
+          ]
+        }
+      }
+    },
+    "metadataOnly": {
+      "contentMetadata": {
+        "resourceURI": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478/resources/48dc25f5-9e6f-4a97-ace5-20d7d73d5030",
+        "resourceCollectionId": "aa34c8a9-7697-400c-ab41-52f7c084d478",
+        "resourceId": "48dc25f5-9e6f-4a97-ace5-20d7d73d5030",
+        "resourceName": "TestTextDocument",
+        "resourceType": "TextDocument",
+        "mediaType": "text/plain; charset=utf-8",
+        "resourceVersion": "",
+        "created": "2025-05-13T23:19:40Z",
+        "checksum": "36d75a2922627e7e11f7877d16d91b7e68dbaf20ac8d762221068414a8b3f99c",
+        "previousVersionId": null,
+        "nextVersionId": null
+      }
+    },
+    "withChecksum": {
+      "dereferencingMetadata": {
+        "contentType": "text/plain; charset=utf-8",
+        "retrieved": "2025-05-13T23:19:57.406Z"
+      },
+      "contentStream": null,
+      "contentMetadata": "Sample text document for DID-Linked Resource testing\nCreated at: 2025-05-13T23:19:42.816Z\nThis is a test document for the Cheqd DID-Linked Resource API."
+    }
+  },
+  "dbRecords": {
+    "textResource": {
+      "resourceId": "48dc25f5-9e6f-4a97-ace5-20d7d73d5030",
+      "resourceName": "TestTextDocument",
+      "resourceType": "TextDocument"
+    },
+    "jsonResource": {
+      "resourceId": "6fa0dd23-2568-4f73-94be-9076342fcbc8",
+      "resourceName": "TestJSONSchema",
+      "resourceType": "JSONDocument"
+    }
+  },
+  "didDocument": {
+    "id": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478",
+    "controller": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478#4617364185324b2a9782339d6216648cbda00f0c49bb692701a47139fc39a98a",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478",
+        "publicKeyHex": "4617364185324b2a9782339d6216648cbda00f0c49bb692701a47139fc39a98a"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478#4617364185324b2a9782339d6216648cbda00f0c49bb692701a47139fc39a98a"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478#4617364185324b2a9782339d6216648cbda00f0c49bb692701a47139fc39a98a"
+    ]
+  },
+  "textResource": {
+    "resourceURI": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478/resources/48dc25f5-9e6f-4a97-ace5-20d7d73d5030",
+    "resourceCollectionId": "aa34c8a9-7697-400c-ab41-52f7c084d478",
+    "resourceId": "48dc25f5-9e6f-4a97-ace5-20d7d73d5030",
+    "resourceName": "TestTextDocument",
+    "resourceType": "TextDocument",
+    "mediaType": "text/plain; charset=utf-8",
+    "resourceVersion": "",
+    "created": "2025-05-13T23:19:40Z",
+    "checksum": "36d75a2922627e7e11f7877d16d91b7e68dbaf20ac8d762221068414a8b3f99c",
+    "previousVersionId": null,
+    "nextVersionId": null
+  },
+  "jsonResource": {
+    "resourceURI": "did:cheqd:testnet:aa34c8a9-7697-400c-ab41-52f7c084d478/resources/6fa0dd23-2568-4f73-94be-9076342fcbc8",
+    "resourceCollectionId": "aa34c8a9-7697-400c-ab41-52f7c084d478",
+    "resourceId": "6fa0dd23-2568-4f73-94be-9076342fcbc8",
+    "resourceName": "TestJSONSchema",
+    "resourceType": "JSONDocument",
+    "mediaType": "application/json",
+    "resourceVersion": "",
+    "created": "2025-05-13T23:19:46Z",
+    "checksum": "0c882767a4b028eb6b7b5e38642e3d9530661fb5dceae0036ccd82e4344a521a",
+    "previousVersionId": null,
+    "nextVersionId": null
+  }
+}

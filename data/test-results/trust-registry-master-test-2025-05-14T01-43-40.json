@@ -1,0 +1,27 @@
+{
+  "issuerDID": "did:cheqd:testnet:6a7d685e-44f6-4b84-9105-5f88697c8065",
+  "subjectDID": "did:cheqd:testnet:4d0148b2-de5e-4a70-8ca3-80cc12f81e3f",
+  "rootRegistry": {
+    "id": "root-1747185733118",
+    "did": "did:cheqd:testnet:317e3501-81df-4371-a6ab-843f45c633e2",
+    "name": "Test Root Registry 1747185733118"
+  },
+  "issuerRegistry": {
+    "id": "9692f394-bfee-4df5-8025-de2ff2321bde",
+    "name": "Test Issuer Registry 1747187020762",
+    "type": "ISSUER",
+    "parentId": "root-1747185733118",
+    "did": "did:cheqd:testnet:6a7d685e-44f6-4b84-9105-5f88697c8065",
+    "data": {
+      "description": "Issuer registry for testing",
+      "createdBy": "test-script"
+    }
+  },
+  "accreditation": null,
+  "accreditationId": null,
+  "verificationResults": [],
+  "suspensionResult": null,
+  "reinstatementResult": null,
+  "revocationResult": null,
+  "error": ""
+}

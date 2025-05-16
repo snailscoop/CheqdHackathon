@@ -1,0 +1,219 @@
+{
+  "timestamp": "2025-05-14T01:52:12.371Z",
+  "resources": {
+    "issuerDID": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f",
+    "subjectDID": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e",
+    "rootRegistry": {
+      "id": "root-1747185733118",
+      "did": "did:cheqd:testnet:317e3501-81df-4371-a6ab-843f45c633e2",
+      "name": "Test Root Registry 1747185733118"
+    },
+    "issuerRegistry": "issuer-1747187523831",
+    "accreditation": {
+      "credentialSubject": {
+        "accreditationType": "accredit",
+        "name": "Test Accreditation",
+        "trustFramework": "Cheqd Test Trust Framework",
+        "trustFrameworkId": "urn:cheqd:test-framework",
+        "schemas": [
+          "https://example.com/schemas/trustRegistry"
+        ],
+        "id": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e"
+      },
+      "issuer": {
+        "id": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f"
+      },
+      "type": [
+        "VerifiableCredential",
+        "accreditAccreditation"
+      ],
+      "credentialStatus": {
+        "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f?resourceName=undefined&resourceType=StatusList2021Revocation#32669",
+        "type": "StatusList2021Entry",
+        "statusPurpose": "revocation",
+        "statusListIndex": "32669"
+      },
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1"
+      ],
+      "issuanceDate": "2025-05-14T01:52:05.000Z",
+      "proof": {
+        "type": "JwtProof2020",
+        "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OjA4Njc2Yjg1LWQzMzktNDkxMy05MDNjLTE1M2MyNjI1MjQ1Zj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jMzI2NjkiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiMzI2NjkifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjhmOWFhZmE1LTc1N2QtNGM1ZS1hOGUyLTYyODNjYmJhMTk2ZSIsIm5iZiI6MTc0NzE4NzUyNSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6MDg2NzZiODUtZDMzOS00OTEzLTkwM2MtMTUzYzI2MjUyNDVmIn0.Wlc6wvg8zJPaNz-2ehyL6KX50t2j1Y3XryzjgfgSCEI1BdRp9po-hsiggYFAZbN3yP6jn83BFqtt5nMmfAm8Ag"
+      },
+      "id": "4675d12b-95ea-4cac-91b9-3ea7f53782fd"
+    }
+  },
+  "verificationResults": {
+    "initial": {
+      "verified": false,
+      "reason": "Invalid trust chain",
+      "errors": [
+        "Trust chain does not include a root registry"
+      ],
+      "status": "invalid_chain",
+      "credential": {
+        "credentialSubject": {
+          "accreditationType": "accredit",
+          "name": "Test Accreditation",
+          "trustFramework": "Cheqd Test Trust Framework",
+          "trustFrameworkId": "urn:cheqd:test-framework",
+          "schemas": [
+            "https://example.com/schemas/trustRegistry"
+          ],
+          "id": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f"
+        },
+        "type": [
+          "VerifiableCredential",
+          "accreditAccreditation"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f?resourceName=undefined&resourceType=StatusList2021Revocation#32669",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "revocation",
+          "statusListIndex": "32669"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1"
+        ],
+        "issuanceDate": "2025-05-14T01:52:05.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OjA4Njc2Yjg1LWQzMzktNDkxMy05MDNjLTE1M2MyNjI1MjQ1Zj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jMzI2NjkiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiMzI2NjkifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjhmOWFhZmE1LTc1N2QtNGM1ZS1hOGUyLTYyODNjYmJhMTk2ZSIsIm5iZiI6MTc0NzE4NzUyNSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6MDg2NzZiODUtZDMzOS00OTEzLTkwM2MtMTUzYzI2MjUyNDVmIn0.Wlc6wvg8zJPaNz-2ehyL6KX50t2j1Y3XryzjgfgSCEI1BdRp9po-hsiggYFAZbN3yP6jn83BFqtt5nMmfAm8Ag"
+        }
+      }
+    },
+    "suspended": {
+      "verified": false,
+      "reason": "Accreditation status is suspended",
+      "status": "suspended",
+      "credential": {
+        "credentialSubject": {
+          "accreditationType": "accredit",
+          "name": "Test Accreditation",
+          "trustFramework": "Cheqd Test Trust Framework",
+          "trustFrameworkId": "urn:cheqd:test-framework",
+          "schemas": [
+            "https://example.com/schemas/trustRegistry"
+          ],
+          "id": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f"
+        },
+        "type": [
+          "VerifiableCredential",
+          "accreditAccreditation"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f?resourceName=undefined&resourceType=StatusList2021Revocation#32669",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "revocation",
+          "statusListIndex": "32669"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1"
+        ],
+        "issuanceDate": "2025-05-14T01:52:05.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OjA4Njc2Yjg1LWQzMzktNDkxMy05MDNjLTE1M2MyNjI1MjQ1Zj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jMzI2NjkiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiMzI2NjkifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjhmOWFhZmE1LTc1N2QtNGM1ZS1hOGUyLTYyODNjYmJhMTk2ZSIsIm5iZiI6MTc0NzE4NzUyNSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6MDg2NzZiODUtZDMzOS00OTEzLTkwM2MtMTUzYzI2MjUyNDVmIn0.Wlc6wvg8zJPaNz-2ehyL6KX50t2j1Y3XryzjgfgSCEI1BdRp9po-hsiggYFAZbN3yP6jn83BFqtt5nMmfAm8Ag"
+        },
+        "suspended": true,
+        "suspensionReason": "Test suspension",
+        "suspensionDate": "2025-05-14T01:52:07.795Z"
+      }
+    },
+    "reinstated": {
+      "verified": false,
+      "reason": "Invalid trust chain",
+      "errors": [
+        "Trust chain does not include a root registry"
+      ],
+      "status": "invalid_chain",
+      "credential": {
+        "credentialSubject": {
+          "accreditationType": "accredit",
+          "name": "Test Accreditation",
+          "trustFramework": "Cheqd Test Trust Framework",
+          "trustFrameworkId": "urn:cheqd:test-framework",
+          "schemas": [
+            "https://example.com/schemas/trustRegistry"
+          ],
+          "id": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f"
+        },
+        "type": [
+          "VerifiableCredential",
+          "accreditAccreditation"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f?resourceName=undefined&resourceType=StatusList2021Revocation#32669",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "revocation",
+          "statusListIndex": "32669"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1"
+        ],
+        "issuanceDate": "2025-05-14T01:52:05.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OjA4Njc2Yjg1LWQzMzktNDkxMy05MDNjLTE1M2MyNjI1MjQ1Zj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jMzI2NjkiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiMzI2NjkifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjhmOWFhZmE1LTc1N2QtNGM1ZS1hOGUyLTYyODNjYmJhMTk2ZSIsIm5iZiI6MTc0NzE4NzUyNSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6MDg2NzZiODUtZDMzOS00OTEzLTkwM2MtMTUzYzI2MjUyNDVmIn0.Wlc6wvg8zJPaNz-2ehyL6KX50t2j1Y3XryzjgfgSCEI1BdRp9po-hsiggYFAZbN3yP6jn83BFqtt5nMmfAm8Ag"
+        },
+        "reinstated": true,
+        "reinstatementReason": "Test reinstatement",
+        "reinstatementDate": "2025-05-14T01:52:09.767Z"
+      }
+    },
+    "revoked": {
+      "verified": false,
+      "reason": "Accreditation status is revoked",
+      "status": "revoked",
+      "credential": {
+        "credentialSubject": {
+          "accreditationType": "accredit",
+          "name": "Test Accreditation",
+          "trustFramework": "Cheqd Test Trust Framework",
+          "trustFrameworkId": "urn:cheqd:test-framework",
+          "schemas": [
+            "https://example.com/schemas/trustRegistry"
+          ],
+          "id": "did:cheqd:testnet:8f9aafa5-757d-4c5e-a8e2-6283cbba196e"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f"
+        },
+        "type": [
+          "VerifiableCredential",
+          "accreditAccreditation"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:08676b85-d339-4913-903c-153c2625245f?resourceName=undefined&resourceType=StatusList2021Revocation#32669",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "revocation",
+          "statusListIndex": "32669"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1"
+        ],
+        "issuanceDate": "2025-05-14T01:52:05.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiYWNjcmVkaXRBY2NyZWRpdGF0aW9uIl0sImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImFjY3JlZGl0YXRpb25UeXBlIjoiYWNjcmVkaXQiLCJuYW1lIjoiVGVzdCBBY2NyZWRpdGF0aW9uIiwidHJ1c3RGcmFtZXdvcmsiOiJDaGVxZCBUZXN0IFRydXN0IEZyYW1ld29yayIsInRydXN0RnJhbWV3b3JrSWQiOiJ1cm46Y2hlcWQ6dGVzdC1mcmFtZXdvcmsiLCJzY2hlbWFzIjpbImh0dHBzOi8vZXhhbXBsZS5jb20vc2NoZW1hcy90cnVzdFJlZ2lzdHJ5Il19LCJjcmVkZW50aWFsU3RhdHVzIjp7ImlkIjoiaHR0cHM6Ly9yZXNvbHZlci5jaGVxZC5uZXQvMS4wL2lkZW50aWZpZXJzL2RpZDpjaGVxZDp0ZXN0bmV0OjA4Njc2Yjg1LWQzMzktNDkxMy05MDNjLTE1M2MyNjI1MjQ1Zj9yZXNvdXJjZU5hbWU9dW5kZWZpbmVkJnJlc291cmNlVHlwZT1TdGF0dXNMaXN0MjAyMVJldm9jYXRpb24jMzI2NjkiLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJyZXZvY2F0aW9uIiwic3RhdHVzTGlzdEluZGV4IjoiMzI2NjkifX0sInN1YiI6ImRpZDpjaGVxZDp0ZXN0bmV0OjhmOWFhZmE1LTc1N2QtNGM1ZS1hOGUyLTYyODNjYmJhMTk2ZSIsIm5iZiI6MTc0NzE4NzUyNSwiaXNzIjoiZGlkOmNoZXFkOnRlc3RuZXQ6MDg2NzZiODUtZDMzOS00OTEzLTkwM2MtMTUzYzI2MjUyNDVmIn0.Wlc6wvg8zJPaNz-2ehyL6KX50t2j1Y3XryzjgfgSCEI1BdRp9po-hsiggYFAZbN3yP6jn83BFqtt5nMmfAm8Ag"
+        },
+        "reinstated": true,
+        "reinstatementReason": "Test reinstatement",
+        "reinstatementDate": "2025-05-14T01:52:09.767Z",
+        "revoked": true,
+        "revocationReason": "Test revocation",
+        "revocationDate": "2025-05-14T01:52:12.016Z"
+      }
+    }
+  }
+}

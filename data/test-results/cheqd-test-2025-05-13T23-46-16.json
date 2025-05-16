@@ -1,0 +1,10 @@
+{
+  "issuerDid": null,
+  "holderDid": null,
+  "credential": null,
+  "credentialId": null,
+  "verificationResults": {},
+  "statusOperations": {},
+  "dbRecords": {},
+  "error": "cheqdService.ensureInitialized is not a function"
+}

@@ -1,0 +1,104 @@
+{
+  "holderDID": {
+    "did": "did:cheqd:testnet:7b46986d-65d2-4522-bf8f-897acec9ba6c",
+    "keys": [
+      {
+        "kid": "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9",
+        "kms": "postgres",
+        "type": "Ed25519",
+        "publicKeyHex": "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9",
+        "meta": {
+          "algorithms": [
+            "EdDSA",
+            "Ed25519"
+          ]
+        },
+        "controller": "did:cheqd:testnet:7b46986d-65d2-4522-bf8f-897acec9ba6c"
+      }
+    ],
+    "services": [],
+    "provider": "did:cheqd:testnet",
+    "controllerKeyRefs": [
+      "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9"
+    ],
+    "controllerKeys": [
+      {
+        "kid": "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9",
+        "kms": "postgres",
+        "type": "Ed25519",
+        "publicKeyHex": "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9",
+        "meta": {
+          "algorithms": [
+            "EdDSA",
+            "Ed25519"
+          ]
+        },
+        "controller": "did:cheqd:testnet:7b46986d-65d2-4522-bf8f-897acec9ba6c"
+      }
+    ],
+    "controllerKeyId": "98a607b8dbb6f1964d68171dfc457b253ca9fab2eed7f8f24fe4f269585364b9"
+  },
+  "issuerDID": {
+    "did": "did:cheqd:testnet:198f37a8-c86c-4615-b422-a739c9fed03d",
+    "keys": [
+      {
+        "kid": "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be",
+        "kms": "postgres",
+        "type": "Ed25519",
+        "publicKeyHex": "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be",
+        "meta": {
+          "algorithms": [
+            "EdDSA",
+            "Ed25519"
+          ]
+        },
+        "controller": "did:cheqd:testnet:198f37a8-c86c-4615-b422-a739c9fed03d"
+      }
+    ],
+    "services": [],
+    "provider": "did:cheqd:testnet",
+    "controllerKeyRefs": [
+      "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be"
+    ],
+    "controllerKeys": [
+      {
+        "kid": "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be",
+        "kms": "postgres",
+        "type": "Ed25519",
+        "publicKeyHex": "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be",
+        "meta": {
+          "algorithms": [
+            "EdDSA",
+            "Ed25519"
+          ]
+        },
+        "controller": "did:cheqd:testnet:198f37a8-c86c-4615-b422-a739c9fed03d"
+      }
+    ],
+    "controllerKeyId": "dfbd658952632d48a76cfb07ff7ea92f4d60c2b60d66331fb04f1cf3d81bd5be"
+  },
+  "credential": {
+    "credentialSubject": {
+      "name": "Test User",
+      "testValue": "This is a test credential 1747174914990",
+      "testDate": "2025-05-13T22:21:54.990Z",
+      "id": "did:cheqd:testnet:7b46986d-65d2-4522-bf8f-897acec9ba6c"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:198f37a8-c86c-4615-b422-a739c9fed03d"
+    },
+    "type": [
+      "VerifiableCredential",
+      "TestCredential"
+    ],
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org"
+    ],
+    "issuanceDate": "2025-05-13T22:21:56.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVGVzdENyZWRlbnRpYWwiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IlRlc3QgVXNlciIsInRlc3RWYWx1ZSI6IlRoaXMgaXMgYSB0ZXN0IGNyZWRlbnRpYWwgMTc0NzE3NDkxNDk5MCIsInRlc3REYXRlIjoiMjAyNS0wNS0xM1QyMjoyMTo1NC45OTBaIn19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDo3YjQ2OTg2ZC02NWQyLTQ1MjItYmY4Zi04OTdhY2VjOWJhNmMiLCJuYmYiOjE3NDcxNzQ5MTYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjE5OGYzN2E4LWM4NmMtNDYxNS1iNDIyLWE3MzljOWZlZDAzZCJ9.tf2-XJMT5Ims_6RKLEYxo4GhGHw_vJj2FWgw6W8FJXjDSZ0mTDiOfmfhH60pFvt5TvGBgtG9-CMzC__MN6zxDw"
+    }
+  }
+}

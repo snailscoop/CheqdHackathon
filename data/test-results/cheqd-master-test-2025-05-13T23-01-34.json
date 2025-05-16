@@ -1,0 +1,35 @@
+{
+  "did": "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b",
+  "updatedDocument": null,
+  "deactivationResult": null,
+  "searchResults": {},
+  "initialDocument": {
+    "id": "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b",
+    "controller": "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b#5d3902635aede50240f8890c7311dd573d259b3547476346a6eef37b0733efbd",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b",
+        "publicKeyHex": "5d3902635aede50240f8890c7311dd573d259b3547476346a6eef37b0733efbd"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b#5d3902635aede50240f8890c7311dd573d259b3547476346a6eef37b0733efbd"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b#5d3902635aede50240f8890c7311dd573d259b3547476346a6eef37b0733efbd"
+    ]
+  },
+  "listResult": [
+    "did:cheqd:testnet:17959495-6635-4553-97cd-8e6d0feedb5c",
+    "did:cheqd:testnet:243e5a38-1727-403d-9c3f-7b46e117f066",
+    "did:cheqd:testnet:29c32e68-9ff4-43bc-a129-b6df18fe84e2",
+    "did:cheqd:testnet:662d2a7e-20fd-4d03-b801-2afcc7570003",
+    "did:cheqd:testnet:7d7bb359-8b32-4b12-8e35-5456411b726a",
+    "did:cheqd:testnet:96989738-c021-4615-8f41-3c0bcd21d659",
+    "did:cheqd:testnet:a8f1c65f-8d67-4951-8c81-99b8fe26b765",
+    "did:cheqd:testnet:fcef93bd-7f0f-4a01-bc56-1a44258a123b"
+  ],
+  "error": "DID resolution failed or returned incorrect document"
+}

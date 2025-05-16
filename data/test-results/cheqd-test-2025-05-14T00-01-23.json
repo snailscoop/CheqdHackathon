@@ -1,0 +1,163 @@
+{
+  "issuerDid": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+  "holderDid": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12",
+  "credential": {
+    "credentialSubject": {
+      "name": "John Doe",
+      "degree": "Bachelor of Science",
+      "university": "Example University",
+      "graduationDate": "2023-06-15",
+      "id": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152"
+    },
+    "type": [
+      "VerifiableCredential",
+      "VerifiableDiploma"
+    ],
+    "credentialStatus": {
+      "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152?resourceName=undefined&resourceType=StatusList2021Suspension#4277",
+      "type": "StatusList2021Entry",
+      "statusPurpose": "suspension",
+      "statusListIndex": "4277"
+    },
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org",
+      "https://w3id.org/vc/status-list/2021/v1",
+      "https://w3id.org/vc-status-list-2021/v1"
+    ],
+    "issuanceDate": "2025-05-14T00:01:17.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDpkZmE4OTVlOS02ZTA1LTQ1MDktOTYzNi0wNjc2OTg2ZGYxNTI_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzQyNzciLCJ0eXBlIjoiU3RhdHVzTGlzdDIwMjFFbnRyeSIsInN0YXR1c1B1cnBvc2UiOiJzdXNwZW5zaW9uIiwic3RhdHVzTGlzdEluZGV4IjoiNDI3NyJ9fSwic3ViIjoiZGlkOmNoZXFkOnRlc3RuZXQ6NDg3N2MwMzEtN2I4NC00ZGNmLTk3NWMtNmQwZDFjNjZhYzEyIiwibmJmIjoxNzQ3MTgwODc3LCJpc3MiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpkZmE4OTVlOS02ZTA1LTQ1MDktOTYzNi0wNjc2OTg2ZGYxNTIifQ.tjIKG4VFMjh_ZIQ1i5Mmkm5exNEVAabGKKLVKmBQST-HUloRbpWyGaA8T-CwfmHWbVOGmBjH5fdYGZTnZz1rBA"
+    }
+  },
+  "credentialId": "urn:credential:0ce2e0b6-2366-47d5-89e1-0b70c044a05d",
+  "verificationResults": {
+    "initial": {
+      "verified": true,
+      "status": "active",
+      "results": {
+        "verified": true,
+        "issuer": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+        "signer": {
+          "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#key-1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+          "publicKeyBase58": "H694Ru1jVth5HFHR4CdtwuikaKVECgBCdxhofz2QMXR2"
+        },
+        "policies": {
+          "credentialStatus": false
+        }
+      }
+    },
+    "afterSuspension": {
+      "verified": true,
+      "status": "active",
+      "results": {
+        "verified": true,
+        "issuer": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+        "signer": {
+          "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#key-1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+          "publicKeyBase58": "H694Ru1jVth5HFHR4CdtwuikaKVECgBCdxhofz2QMXR2"
+        },
+        "policies": {
+          "credentialStatus": false
+        }
+      }
+    },
+    "afterReinstatement": {
+      "verified": true,
+      "status": "active",
+      "results": {
+        "verified": true,
+        "issuer": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+        "signer": {
+          "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#key-1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+          "publicKeyBase58": "H694Ru1jVth5HFHR4CdtwuikaKVECgBCdxhofz2QMXR2"
+        },
+        "policies": {
+          "credentialStatus": false
+        }
+      }
+    },
+    "afterRevocation": {
+      "verified": true,
+      "status": "active",
+      "results": {
+        "verified": true,
+        "issuer": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+        "signer": {
+          "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#key-1",
+          "type": "Ed25519VerificationKey2018",
+          "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+          "publicKeyBase58": "H694Ru1jVth5HFHR4CdtwuikaKVECgBCdxhofz2QMXR2"
+        },
+        "policies": {
+          "credentialStatus": false
+        }
+      }
+    }
+  },
+  "statusOperations": {
+    "suspend": {
+      "suspended": true,
+      "fallback": true,
+      "credentialId": "urn:credential:0ce2e0b6-2366-47d5-89e1-0b70c044a05d"
+    },
+    "reinstate": {
+      "unsuspended": true,
+      "fallback": true,
+      "credentialId": "urn:credential:0ce2e0b6-2366-47d5-89e1-0b70c044a05d"
+    },
+    "revoke": true
+  },
+  "dbRecords": {
+    "credential": {
+      "id": "urn:credential:0ce2e0b6-2366-47d5-89e1-0b70c044a05d",
+      "status": "revoked"
+    }
+  },
+  "issuerDidDocument": {
+    "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+    "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#ef0c01e19c46f3fbfc627494d27a4293e42fd4c5e3c40245d50dd6023773ba19",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152",
+        "publicKeyHex": "ef0c01e19c46f3fbfc627494d27a4293e42fd4c5e3c40245d50dd6023773ba19"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#ef0c01e19c46f3fbfc627494d27a4293e42fd4c5e3c40245d50dd6023773ba19"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:dfa895e9-6e05-4509-9636-0676986df152#ef0c01e19c46f3fbfc627494d27a4293e42fd4c5e3c40245d50dd6023773ba19"
+    ]
+  },
+  "holderDidDocument": {
+    "id": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12",
+    "controller": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12#600416bc745dc242fb0366dc51f06773e6f48afdaf836dea403810a21ea83fe3",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12",
+        "publicKeyHex": "600416bc745dc242fb0366dc51f06773e6f48afdaf836dea403810a21ea83fe3"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12#600416bc745dc242fb0366dc51f06773e6f48afdaf836dea403810a21ea83fe3"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:4877c031-7b84-4dcf-975c-6d0d1c66ac12#600416bc745dc242fb0366dc51f06773e6f48afdaf836dea403810a21ea83fe3"
+    ]
+  }
+}

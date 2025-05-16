@@ -1,0 +1,7 @@
+{
+  "did": null,
+  "updatedDocument": null,
+  "deactivationResult": null,
+  "searchResults": {},
+  "error": "Could not connect to Cheqd API: Request failed with status code 400"
+}

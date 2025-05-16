@@ -1,0 +1,244 @@
+{
+  "issuerDid": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328",
+  "holderDid": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16",
+  "credential": {
+    "credentialSubject": {
+      "name": "John Doe",
+      "degree": "Bachelor of Science",
+      "university": "Example University",
+      "graduationDate": "2023-06-15",
+      "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16"
+    },
+    "issuer": {
+      "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328"
+    },
+    "type": [
+      "VerifiableCredential",
+      "VerifiableDiploma"
+    ],
+    "credentialStatus": {
+      "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328?resourceName=undefined&resourceType=StatusList2021Suspension#55307",
+      "type": "StatusList2021Entry",
+      "statusPurpose": "suspension",
+      "statusListIndex": "55307"
+    },
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://schema.org",
+      "https://w3id.org/vc/status-list/2021/v1",
+      "https://w3id.org/vc-status-list-2021/v1"
+    ],
+    "issuanceDate": "2025-05-14T00:00:36.000Z",
+    "proof": {
+      "type": "JwtProof2020",
+      "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDoyNzBjYzgxYS05MGNiLTQyMjUtOWFiMS0xMDUxYWJjYWEzMjg_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzU1MzA3IiwidHlwZSI6IlN0YXR1c0xpc3QyMDIxRW50cnkiLCJzdGF0dXNQdXJwb3NlIjoic3VzcGVuc2lvbiIsInN0YXR1c0xpc3RJbmRleCI6IjU1MzA3In19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpmMzAyNjc5YS1kMDE5LTRhODMtOTRkZC1mNTRiN2Q0ZTBhMTYiLCJuYmYiOjE3NDcxODA4MzYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjI3MGNjODFhLTkwY2ItNDIyNS05YWIxLTEwNTFhYmNhYTMyOCJ9.Leoa_gCevrDFguoyHN0BfG0mDO3rMGDmqp9tcYxWdYcDqOssrXPy0Qq8p8di9xS7scSQdhpHZhypLBznRzuSDA"
+    }
+  },
+  "credentialId": "urn:credential:1b58c3d6-87f0-4e2b-899b-0215dab75f19",
+  "verificationResults": {
+    "initial": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328?resourceName=undefined&resourceType=StatusList2021Suspension#55307",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "suspension",
+          "statusListIndex": "55307"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org",
+          "https://w3id.org/vc/status-list/2021/v1",
+          "https://w3id.org/vc-status-list-2021/v1"
+        ],
+        "issuanceDate": "2025-05-14T00:00:36.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDoyNzBjYzgxYS05MGNiLTQyMjUtOWFiMS0xMDUxYWJjYWEzMjg_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzU1MzA3IiwidHlwZSI6IlN0YXR1c0xpc3QyMDIxRW50cnkiLCJzdGF0dXNQdXJwb3NlIjoic3VzcGVuc2lvbiIsInN0YXR1c0xpc3RJbmRleCI6IjU1MzA3In19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpmMzAyNjc5YS1kMDE5LTRhODMtOTRkZC1mNTRiN2Q0ZTBhMTYiLCJuYmYiOjE3NDcxODA4MzYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjI3MGNjODFhLTkwY2ItNDIyNS05YWIxLTEwNTFhYmNhYTMyOCJ9.Leoa_gCevrDFguoyHN0BfG0mDO3rMGDmqp9tcYxWdYcDqOssrXPy0Qq8p8di9xS7scSQdhpHZhypLBznRzuSDA"
+        }
+      }
+    },
+    "afterSuspension": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328?resourceName=undefined&resourceType=StatusList2021Suspension#55307",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "suspension",
+          "statusListIndex": "55307"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org",
+          "https://w3id.org/vc/status-list/2021/v1",
+          "https://w3id.org/vc-status-list-2021/v1"
+        ],
+        "issuanceDate": "2025-05-14T00:00:36.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDoyNzBjYzgxYS05MGNiLTQyMjUtOWFiMS0xMDUxYWJjYWEzMjg_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzU1MzA3IiwidHlwZSI6IlN0YXR1c0xpc3QyMDIxRW50cnkiLCJzdGF0dXNQdXJwb3NlIjoic3VzcGVuc2lvbiIsInN0YXR1c0xpc3RJbmRleCI6IjU1MzA3In19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpmMzAyNjc5YS1kMDE5LTRhODMtOTRkZC1mNTRiN2Q0ZTBhMTYiLCJuYmYiOjE3NDcxODA4MzYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjI3MGNjODFhLTkwY2ItNDIyNS05YWIxLTEwNTFhYmNhYTMyOCJ9.Leoa_gCevrDFguoyHN0BfG0mDO3rMGDmqp9tcYxWdYcDqOssrXPy0Qq8p8di9xS7scSQdhpHZhypLBznRzuSDA"
+        }
+      }
+    },
+    "afterReinstatement": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328?resourceName=undefined&resourceType=StatusList2021Suspension#55307",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "suspension",
+          "statusListIndex": "55307"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org",
+          "https://w3id.org/vc/status-list/2021/v1",
+          "https://w3id.org/vc-status-list-2021/v1"
+        ],
+        "issuanceDate": "2025-05-14T00:00:36.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDoyNzBjYzgxYS05MGNiLTQyMjUtOWFiMS0xMDUxYWJjYWEzMjg_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzU1MzA3IiwidHlwZSI6IlN0YXR1c0xpc3QyMDIxRW50cnkiLCJzdGF0dXNQdXJwb3NlIjoic3VzcGVuc2lvbiIsInN0YXR1c0xpc3RJbmRleCI6IjU1MzA3In19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpmMzAyNjc5YS1kMDE5LTRhODMtOTRkZC1mNTRiN2Q0ZTBhMTYiLCJuYmYiOjE3NDcxODA4MzYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjI3MGNjODFhLTkwY2ItNDIyNS05YWIxLTEwNTFhYmNhYTMyOCJ9.Leoa_gCevrDFguoyHN0BfG0mDO3rMGDmqp9tcYxWdYcDqOssrXPy0Qq8p8di9xS7scSQdhpHZhypLBznRzuSDA"
+        }
+      }
+    },
+    "afterRevocation": {
+      "verified": true,
+      "status": "active",
+      "credential": {
+        "credentialSubject": {
+          "name": "John Doe",
+          "degree": "Bachelor of Science",
+          "university": "Example University",
+          "graduationDate": "2023-06-15",
+          "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16"
+        },
+        "issuer": {
+          "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328"
+        },
+        "type": [
+          "VerifiableCredential",
+          "VerifiableDiploma"
+        ],
+        "credentialStatus": {
+          "id": "https://resolver.cheqd.net/1.0/identifiers/did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328?resourceName=undefined&resourceType=StatusList2021Suspension#55307",
+          "type": "StatusList2021Entry",
+          "statusPurpose": "suspension",
+          "statusListIndex": "55307"
+        },
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://schema.org",
+          "https://w3id.org/vc/status-list/2021/v1",
+          "https://w3id.org/vc-status-list-2021/v1"
+        ],
+        "issuanceDate": "2025-05-14T00:00:36.000Z",
+        "proof": {
+          "type": "JwtProof2020",
+          "jwt": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJ2YyI6eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MSIsImh0dHBzOi8vc2NoZW1hLm9yZyIsImh0dHBzOi8vdzNpZC5vcmcvdmMvc3RhdHVzLWxpc3QvMjAyMS92MSIsImh0dHBzOi8vdzNpZC5vcmcvdmMtc3RhdHVzLWxpc3QtMjAyMS92MSJdLCJ0eXBlIjpbIlZlcmlmaWFibGVDcmVkZW50aWFsIiwiVmVyaWZpYWJsZURpcGxvbWEiXSwiY3JlZGVudGlhbFN1YmplY3QiOnsibmFtZSI6IkpvaG4gRG9lIiwiZGVncmVlIjoiQmFjaGVsb3Igb2YgU2NpZW5jZSIsInVuaXZlcnNpdHkiOiJFeGFtcGxlIFVuaXZlcnNpdHkiLCJncmFkdWF0aW9uRGF0ZSI6IjIwMjMtMDYtMTUifSwiY3JlZGVudGlhbFN0YXR1cyI6eyJpZCI6Imh0dHBzOi8vcmVzb2x2ZXIuY2hlcWQubmV0LzEuMC9pZGVudGlmaWVycy9kaWQ6Y2hlcWQ6dGVzdG5ldDoyNzBjYzgxYS05MGNiLTQyMjUtOWFiMS0xMDUxYWJjYWEzMjg_cmVzb3VyY2VOYW1lPXVuZGVmaW5lZCZyZXNvdXJjZVR5cGU9U3RhdHVzTGlzdDIwMjFTdXNwZW5zaW9uIzU1MzA3IiwidHlwZSI6IlN0YXR1c0xpc3QyMDIxRW50cnkiLCJzdGF0dXNQdXJwb3NlIjoic3VzcGVuc2lvbiIsInN0YXR1c0xpc3RJbmRleCI6IjU1MzA3In19LCJzdWIiOiJkaWQ6Y2hlcWQ6dGVzdG5ldDpmMzAyNjc5YS1kMDE5LTRhODMtOTRkZC1mNTRiN2Q0ZTBhMTYiLCJuYmYiOjE3NDcxODA4MzYsImlzcyI6ImRpZDpjaGVxZDp0ZXN0bmV0OjI3MGNjODFhLTkwY2ItNDIyNS05YWIxLTEwNTFhYmNhYTMyOCJ9.Leoa_gCevrDFguoyHN0BfG0mDO3rMGDmqp9tcYxWdYcDqOssrXPy0Qq8p8di9xS7scSQdhpHZhypLBznRzuSDA"
+        },
+        "revocationReason": "Revoked by issuer"
+      }
+    }
+  },
+  "statusOperations": {
+    "suspend": {
+      "suspended": true,
+      "fallback": true,
+      "credentialId": "urn:credential:1b58c3d6-87f0-4e2b-899b-0215dab75f19"
+    },
+    "reinstate": {
+      "unsuspended": true,
+      "fallback": true,
+      "credentialId": "urn:credential:1b58c3d6-87f0-4e2b-899b-0215dab75f19"
+    },
+    "revoke": true
+  },
+  "dbRecords": {
+    "credential": {
+      "id": "urn:credential:1b58c3d6-87f0-4e2b-899b-0215dab75f19",
+      "status": "revoked"
+    }
+  },
+  "issuerDidDocument": {
+    "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328",
+    "controller": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328#42399adfec74c78873d9e1b7a17b40e7358932e9141823d35f15ce9f82b735b6",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328",
+        "publicKeyHex": "42399adfec74c78873d9e1b7a17b40e7358932e9141823d35f15ce9f82b735b6"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328#42399adfec74c78873d9e1b7a17b40e7358932e9141823d35f15ce9f82b735b6"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:270cc81a-90cb-4225-9ab1-1051abcaa328#42399adfec74c78873d9e1b7a17b40e7358932e9141823d35f15ce9f82b735b6"
+    ]
+  },
+  "holderDidDocument": {
+    "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16",
+    "controller": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16",
+    "verificationMethod": [
+      {
+        "id": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16#af408f4007ec6a6a627b6879d57486d1b795851ca692adde407de7616ebb67a6",
+        "type": "Ed25519",
+        "controller": "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16",
+        "publicKeyHex": "af408f4007ec6a6a627b6879d57486d1b795851ca692adde407de7616ebb67a6"
+      }
+    ],
+    "authentication": [
+      "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16#af408f4007ec6a6a627b6879d57486d1b795851ca692adde407de7616ebb67a6"
+    ],
+    "assertionMethod": [
+      "did:cheqd:testnet:f302679a-d019-4a83-94dd-f54b7d4e0a16#af408f4007ec6a6a627b6879d57486d1b795851ca692adde407de7616ebb67a6"
+    ]
+  }
+}
